@@ -19,7 +19,8 @@ Atmospheric columns are not standard sequence data; they possess strict spatial 
 3. **LSTMMamba:** Transformers are computationally heavy and often struggle with the strict sequential inductive bias required for atmospheric columns. We integrated Mamba (a modern State Space Model). Mamba blocks replace standard attention mechanisms, offering linear time complexity scaling while explicitly modeling the sequential state evolution from the surface to the upper atmosphere.
 4. **LstmMambaMixed:** Our optimal single architecture interleaves ResLSTM blocks with Mamba blocks. The LSTM layers provide robust short-term memory of the vertical profile, while the Mamba layers efficiently route long-range global context.
 
-<img width="1024" height="825" alt="image" src="https://github.com/user-attachments/assets/8803e5cd-c197-49a3-901a-4c69c2be2b4f" />
+<img width="438" height="308" alt="image" src="https://github.com/user-attachments/assets/a188d6f7-c84b-4f8a-b84b-0f5d854b5d69" />
+
 
 
 ### 4. Experimental Results and Model Comparison
