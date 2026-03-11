@@ -33,7 +33,7 @@ To maximize predictive accuracy and generalization, our final submission utilize
 | **ResLSTM** | 0.745 | 0.712 | 4.8 | 12.1M |
 | **CNN-LSTM** | 0.758 | 0.729 | 5.4 | 14.3M |
 | **LstmMambaMixed** | 0.781 | 0.760 | 3.9 | 11.8M |
-| **Final Ensemble (8 Models)** | **0.812** | **0.795** | 35.0 | 105.2M |
+| **Final Ensemble** | **0.812** | **0.795** | 35.0 | 105.2M |
 
 ### 5. Conclusion
 The data clearly indicates that mixing 1D-convolutions for local feature extraction with State Space Models (Mamba) and Residual LSTMs for global vertical sequence modeling yields the highest physical accuracy. The 8-model ensemble provides the necessary robustness to account for edge-case atmospheric anomalies, securing state-of-the-art emulation performance.
