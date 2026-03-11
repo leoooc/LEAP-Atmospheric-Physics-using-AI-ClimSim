@@ -38,5 +38,4 @@ To maximize predictive accuracy and generalization, our final submission utilize
 ### 5. Conclusion
 The data clearly indicates that mixing 1D-convolutions for local feature extraction with State Space Models (Mamba) and Residual LSTMs for global vertical sequence modeling yields the highest physical accuracy. The 8-model ensemble provides the necessary robustness to account for edge-case atmospheric anomalies, securing state-of-the-art emulation performance.
 
-# Conclusion
-The LEAP Atmospheric Physics AI CLIMSIM project provides a robust starting point for applying seq2seq models to complex environmental challenges. Its clear structure, innovative approach, and honest appraisal of both strengths and limitations make it a forward-thinking effort in the realm of climate simulation. By addressing the identified opportunities for improvement, this project holds promise for significantly advancing our capabilities in atmospheric prediction and environmental monitoring
+
